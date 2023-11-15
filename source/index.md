@@ -1,4 +1,5 @@
 ---
+title: Textual Programming in Python
 alias: TextualProgrammingInPython
 short_descripiton: Textual Programming in Python
 long_description: >
