@@ -1,0 +1,6 @@
+sphinx<=7.1.1
+petlja_sphinx_extensions
+myst-parser 
+sphinx-design
+sphinx-copybutton
+sphinx-autobuild
