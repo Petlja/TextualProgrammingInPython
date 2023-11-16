@@ -1,6 +1,6 @@
 # Nested branching
 
-Nested branches are *if* statements in the branches of other *if* statements. Nested *if* statements can be found in one or the other, or in both branches of a larger *if* statement. This way of setting *if* statements can go to any depth, but it should be borne in mind that that way programs can become difficult to understand exactly and hard to maintain.
+Nested branches are *if* statements in the branches of other *if* statements. Nested *if* statements can be found in one branch or the other, or in both branches of a larger *if* statement. This way of setting *if* statements can go to any depth, but it should be borne in mind that that way programs can become difficult to understand exactly and hard to maintain.
 
 In the first example, we intentionally provide a program with three levels of nesting *if* statements, to help you imagine what a program with even more deeply nested and longer *if* statements might look like. In other examples and tasks, we will limit ourselves to one level of inserting *if* statements.
 
