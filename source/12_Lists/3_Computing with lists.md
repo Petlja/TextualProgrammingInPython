@@ -1,6 +1,6 @@
 # Computing with lists
 
-Here we will practice using of lists and combining the techniques we have learned so far.
+Here we will practice using lists and combining the techniques we have learned so far.
 
 ```{questionnote}
 

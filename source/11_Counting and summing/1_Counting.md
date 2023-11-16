@@ -1,7 +1,7 @@
 # Counting
 
 
-It is a very common case that we are only interested in some of the data from a collection. Here we will practice how to count and, if necessary, sum numbers that are of interest to us, or that fulfill some condition.. The general form of a program (algorithm) by which we count the elements of a collection that meet a given condition looks like this:
+It is a very common case that we are only interested in some of the data from a collection. Here we will practice how to count and, if necessary, sum numbers that are of interest to us, or that fulfill some condition. The general form of a program (algorithm) by which we count the elements of a collection that meet a given condition looks like this:
 
 ```python
 num = 0
@@ -13,9 +13,9 @@ print(num)
 
 ```{infonote}
 
-The statement ``x += a`` increases the value of the variable *x* by *a*. This is actually an abbreviated form of the statement :code:`x = x + a`, which assigns the value *x + a* to the variable *x*.
+The statement ``x += a`` increases the value of the variable *x* by *a*. This is actually an abbreviated form of the statement `x = x + a`, which assigns the value *x + a* to the variable *x*.
 
-The statement ``x -= a`` decreases the value of the variable *x* by *a*. This is an abbreviated form of the statement :code:`x = x - a`, which assigns the value *x - a* to the variable *x*.
+The statement ``x -= a`` decreases the value of the variable *x* by *a*. This is an abbreviated form of the statement `x = x - a`, which assigns the value *x - a* to the variable *x*.
 ```
 
 In our example, the statement *num += 1* increases the value of the variable *br* by 1.
@@ -108,7 +108,7 @@ At the beginning of this program, we load the number of votes *n*, then use the 
 
 Several people took the traffic proficiency test, which is a prerequisite for taking the practical part of the exam. A test is considered passed if the number of incorrect answers is less than or equal to 3.
 
-At the beginning of the script are given the test results of one group of candidates (number of incorrect answers for each person who took the test). Complete the script by listing how many candidates have passed the test.
+Given at the beginning of the script are the test results of one group of candidates (number of incorrect answers for each person who took the test). Complete the script by listing how many candidates have passed the test.
 ```
 
 ```{py-code} 6

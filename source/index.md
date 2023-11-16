@@ -3,8 +3,12 @@ title: Textual Programming in Python
 alias: TextualProgrammingInPython
 short_descripiton: Textual Programming in Python
 long_description: >
+        <p>Python is a very popular general-purpose programming language. It became known for its simplicity, ease of learning and fast programming. Many professional developers use Python at least as an auxiliary language, because they quickly and easily automate various jobs with it. Due to the aforementioned good qualities, there are more and more users of Python among people from other professions who use programming in various fields. The Python programming language is free to use, and a large  community has been formed around it, contributing to its further development and general support on the Internet. </p>
 
-        <p> In this course we will systematically go through the basics of the Python programming language. </p>
+        <p>Python's programming language makes it clear that programming is not just for professional programmers, the same way writting is not just for professional writers. There are more and more jobs that can become somewhat easier, more successful or more productive with moderate programming skills. Therefore, this handbook is not only for future programming professionals, but for anyone who can benefit from programming in their jobs (or elsewhere). </p>
+
+        <p> So, let's systematically go through the basics of Python and see how commands and programs are written in this programming language. </p>
+       
 
         <p>
             <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.sr_LATN">
@@ -12,8 +16,8 @@ long_description: >
             <br>This course is published by the Loop Foundation (sr. <i>Fondacija Petlja</i>) <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.sr_LATN">Creative Commons Autorstvo 4.0 Međunarodna Licenca (CC BY 4.0)</a>.
         </p>
 
-will_learn: ["Python"]
-needed: ["Python"]
+will_learn: ["Python", "Python programs", "Text values", "Reading data", "Math functions", "Branching statements and logical expressions", "Scripts", "Data collections", "Defining functions"]
+needed: ["Python installed", "Working internet connection"]
 useful: 
     - Python:
         https://www.python.org/

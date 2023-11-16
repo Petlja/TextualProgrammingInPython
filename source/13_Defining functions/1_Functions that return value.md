@@ -13,8 +13,7 @@ The following rules apply to writing functions in Python:
 - Any Python statements may appear in the function body (*statement_1*, ... *statement_k*). These commands are written indented with respect to the row containing the function name and arguments.
 ```
 
-Functions may or may not return some value. So far we have had the opportunity to see both types of functions. For example, the functions by which Karel (the robot) moves forward, turns around, picks up and leaves balls are all functions that do not return any value. On the other hand, mathematical functions like *abs* or *round*, as well as functions to check if Karel has balls with him, whether there are any balls on the square, or whether Karel can go forward are functions that do return a value.
-
+Functions may or may not return some value. So far we have had the opportunity to see both types of functions.
 In order for a function to return a value, it is necessary to specify the `return` statement at least once in the body of the function. The `return` statement consists of the word *return*, folowed by an expression whose value the function is to return.
 
 ```{code} 
@@ -58,7 +57,7 @@ def divmod(a, b):
 
 **Example - painting:**
 
-To paint :math:`1m^{2}` of walls requires about :math:`0.5kg` of paint. Write a function that accepts the following 4 arguments:
+To paint $1m^{2}$ of walls requires about $0.5kg$ of paint. Write a function that accepts the following 4 arguments:
 
 - the length of the room
 - the width of the room

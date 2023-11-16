@@ -1,11 +1,6 @@
 # Quiz
 
-What does the following program print?
-``{code}
-t = (32, 41, 20, 17)
-a, b, c, d = t
-print(c)
-``
+
 
 ```{mchoice}
 :answer1: a program error occurs
@@ -14,15 +9,14 @@ print(c)
 :answer4: 3
 :correct: 3
 
-```
-
 What does the following program print?
-
 ```{code}
-
-a = (1, 2, 3)
-print(a[1])
+t = (32, 41, 20, 17)
+a, b, c, d = t
+print(c)
 ```
+
+
 
 ```{mchoice}
 :answer1: 1
@@ -31,6 +25,12 @@ print(a[1])
 :answer4: 3
 :correct: 2
 
+What does the following program print?
+
+```{code}
+
+a = (1, 2, 3)
+print(a[1])
 ```
 
 ```{mchoice}

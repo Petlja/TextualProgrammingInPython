@@ -4,7 +4,7 @@
 
 **Task - geographic coordinates in GPS format**
 
-You found an old map of the buried treasure and read the coordinates of the treasure in degrees, minutes and seconds. However, your GPS device only supports geographical coordinates in degrees as real numbers (floats).
+You found an old map of buried treasure and read the coordinates of the treasure in degrees, minutes and seconds. However, your GPS device only supports geographical coordinates in degrees as real numbers (floats).
 
 Write a program that for a given coordinate in degrees, minutes and seconds, prints a real number of degrees.
 ```
@@ -30,7 +30,7 @@ The program is almost completely written. An expression needs to be added to cal
 
 **Task - Geographic coordinates in the format for the old map**
 
-After you realized that the old map from the previous assignment was a joke, you decided to make a similar joke to someone. You have selected a nearby location and read coordinates from your GPS device. Now you need to convert the coordinates from the device in real degrees into whole degrees, whole minutes and rounded seconds, to create a proper "old" map.
+After you realized that the old map from the previous assignment was a joke, you decided to prank someone in a similar fasion. You have selected a nearby location and read coordinates from your GPS device. Now you need to convert the coordinates from the device in real degrees into whole degrees, whole minutes and rounded seconds, to create a proper "old" map.
 ```
 
 &#160;    Complete the started program that performs this conversion.
@@ -53,7 +53,7 @@ print(whole_deg, whole_min, whole_sec)
 
 **Task - Plumber:**
 
-Mike is a plumber and has three interventions planned for today. For each intervention, Mike will record when it began and when it ended. Based on that information it should be calculated how long Mike spent in the interventions.
+Mike is a plumber and has three interventions planned for today. For each intervention, Mike will record when it began and when it ended. Based on that information it should be calculated how long Mike spent on the interventions.
 
 A partially written program is given that loads the start and end times in hours and minutes for each Mike's intervention, and then determines and prints the total duration of all interventions.
 

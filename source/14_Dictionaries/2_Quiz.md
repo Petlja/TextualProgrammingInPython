@@ -49,9 +49,9 @@ To help you check your program, here is the expected result: for the data given 
 
 **Task - stock status**
 
-Purchases and sales of goods in the form of tuple of pairs are given. In each pair, the first element is the name of the goods, and the second is the change in stock status. For example, a pair *('cheese', -1.5)* means that the available quantity of cheese has decreased by 1.5 (so much cheese has been sold).
+Purchases and sales of goods in the form of tuple of pairs are given. In each pair, the first element is the name of the goods, and the second is the change in stock status. For example, a pair *('cheese', -1.5)* means that the available quantity of cheese has decreased by 1.5 (that much cheese has been sold).
 
-Complete the program that calculates and prints the state after these changes, based on the given state changes. Assume that there are no stocks at the beginning.
+Complete the program that calculates and prints the state after these changes, based on the given state changes. Assume that there is no stock at the beginning.
 
 Check the result: for the data given, you should get (in any order)
 

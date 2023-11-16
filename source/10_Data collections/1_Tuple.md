@@ -8,9 +8,7 @@ Each value that consists of multiple values of a simpler type will be called a *
 
 The only collections we have seen so far are tuples, which we will now get to know in more detail. We will see some more types of collections very soon.
 
-## Tuple and its elements
-
-### Packing and unpacking tuples
+## Packing and unpacking tuples
 
 We can fit the whole tuple into a variable, as we do with values of a simpler type. In the following example, the *temperatures* variable contains the entire tuple as its value.
 
@@ -42,7 +40,7 @@ first_name, middle_name, last_name = "Arthur", "Conan", "Doyle"
 
 Tuples do not appear in this statement, which is called multiple value assignment.
 
-### Tuple elements and indices
+## Tuple elements and indices
 
 We can also get the elements of a tuple by writing the name of the tuple, and behind it in square brackets the sequence number of the element we want. It should be noted here that counting the elements of any collection starts from zero. For example:
 
@@ -56,7 +54,7 @@ print(basic_colors[2])
 
 The sequence number of an element is also called the **index** of the element. if the tuple has *n* elements, we can use the numbers 0, 1, 2, ... *n-1* as indices. In the example above, *n* = 3, so indices 0, 1, and 2 are allowed. Trying to use an index outside these bounds causes an error (try it).
 
-### Tuple length
+## Tuple length
 
 The number of elements of a tuple can be obtained by using the *len* function.
 

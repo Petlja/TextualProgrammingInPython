@@ -4,7 +4,7 @@
 
 **Example - when to depart**
 
-Ronnie should arrive at destination no later than 5:00 pm. Depending on the way of travel he chooses, Ronnie may need 55, 70, 85, or 95 minutes. Write a program that prints for each way of travel when Ronnie needs to leave at the latest to arrive on time.
+Ronnie should arrive at the destination no later than 5:00 pm. Depending on the way of travel he chooses, Ronnie may need 55, 70, 85, or 95 minutes. Write a program that prints the time  Ronnie needs to leave at the latest to arrive on time for each travel duration.
 
 ```
 
@@ -27,7 +27,7 @@ for travel_duration in (55, 70, 85, 95):
 
 **Task - trip duration**
 
-George intends to start a 600-kilometer car trip at 9 a.m. and is interested in arriving time if he was traveling at an average speed of 90, 100, 120 or 130 kilometers per hour. Finish the program to list the time of arrival at the destination for each of the aforementioned average speeds.
+George intends to start a 600-kilometer car trip at 9 a.m. and is interested in the time of arrival if he was traveling at an average speed of 90, 100, 120 or 130 kilometers per hour. Finish the program to list the time of arrival at the destination for each of the aforementioned average speeds.
 ```
 
 ```{py-code} 5

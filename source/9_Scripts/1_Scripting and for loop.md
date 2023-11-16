@@ -1,4 +1,4 @@
-# Scripts and *for* loop
+# Scripts and for loop
 
 People often write short programs In Python and use them by themselves to calculate or automate something. Such programs are also known as **scripts.** It is not unusual for scripts to have some or all of the input data contained within the script itself instead of being loaded. For example, the following script calculates a 20 percent discount:
 
@@ -18,7 +18,7 @@ With scripts, there is no strict division between users and developers as with a
 
 We have already emphasized that this manual is not intended only for future professionals in programming. If you do not program applications, you can still benefit from programming. You may write a script or customize an existing one, as expected in the presumed instruction of the previous example.
 
-## Repeating computation for multiple data
+## Repeating computation for multiple data points
 
 Let's make the previous example more general. Suppose that in one store we are entitled to a 20 percent discount over the regular prices. We are interested in discounted prices of various products, whose regular prices we know.
 
@@ -40,9 +40,9 @@ We can run the program multiple times, setting each time a regular price for one
 
 In the case where we know in advance all the regular prices of products that interest us, multiple program launches and entering one price at a time is not the most comfortable way to get all the discounted prices. Instead, it would be more convenient to enter all regular prices directly into the program and to repeat calculation and printing the results for each of these data.
 
-## *for* statement
+## for statement
 
-In order to be able to repeat some part of the program for each piece of multiple data, we need the **for** statement, which allows other statements to be repeated. Now we are going to see one way to use *for* statement, and we will see some other forms of *for* statement in the following lessons.
+In order to be able to repeat a part of the program for each piece of multiple data, we need the **for** statement, which allows other statements to be repeated. Now we are going to see one way to use the *for* statement, and we will see some other forms of *for* statements in the following lessons.
 
 Let's return to the discounted price example. Let's say that the regular prices of the products we are interested in are 250, 120, and 310 and we want to calculate the discounted prices for those products with a single execution. Here is how we can do it:
 

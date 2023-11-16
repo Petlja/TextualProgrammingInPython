@@ -1,6 +1,6 @@
 # Lists
 
-So far, we have mentioned tuple and range as types of collections, and we have seen that the string can also be used as a collection. Another very important and often used type of collections are lists.
+So far, we have mentioned tuples and ranges as types of collections, and we have seen that the string can also be used as a collection. Another very important and often used type of collections are lists.
 
 ## Lists vs. tuples
 
@@ -64,7 +64,7 @@ Such operations with tuples are not possible. Once made, the tuple remains as it
 
 Tuples can be used for collections of data that we do not intend to modify while executing a program (although we can change them manually before executing a program). By using tuples, we ensure that the data will not change accidentally, and program will work slightly more efficiently with the tuple than it would do with the list.
 
-Tuple *t* can be converted to a list *a* during the program execution, and vice versa: `a = list(t)` or `t = tuple(a)`, but such conversions are seldom needed and better avoid them (if they are often applied to large collections, conversions like this can slow the program significantly).
+Tuple *t* can be converted to a list *a* during the program execution, and vice versa: `a = list(t)` or `t = tuple(a)`, but such conversions are seldom needed and are better avoided (if they are often applied to large collections, conversions like this can slow the program significantly).
 
 ## Building a list
 
@@ -140,14 +140,14 @@ We used the *split()* function to parse the entered text into shorter strings co
 
 The *split()* function parameter is a character or text that we want to use as a separator. If a separator is not specified, a space ``' '`` is assumed as default.
 
-:code:`"1234 56".split() -> ["1234", "56"]`
+`"1234 56".split() -> ["1234", "56"]`
 
-:code:`"1234,56".split(',') -> ["1234", "56"]`
+`"1234,56".split(',') -> ["1234", "56"]`
 
 The result of the *split()* function is a string list. The number of shorter strings we get as a result depends on the number and layout of the separator characters in the starting string. For example, if the text contains only one separator somewhere in the middle, we will get two shorter strings. Each new appearance of the separator character can produce one string more in the resulting list (if it really separates some part of the starting string from the rest of the text).
 
-:code:`"1;23;456;7".split(';') -> ["1", "23", "456", "7"]`
+`"1;23;456;7".split(';') -> ["1", "23", "456", "7"]`
 
-:code:`" 1  234    56 7 ".split() -> ["1", "234", "56", "7"]`
+`" 1  234    56 7 ".split() -> ["1", "234", "56", "7"]`
 
 ```

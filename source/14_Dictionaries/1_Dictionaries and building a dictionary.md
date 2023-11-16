@@ -1,6 +1,6 @@
 # Dictionaries
 
-Now we are going to introduce a new type of structured data, i.e. collection, which is quite different from the ones we have met so far.
+Now we are going to introduce a new type of structured data, i.e. collection, which is quite different from the ones we have encountered so far.
 
 Suppose we need to write a program that answers questions about an individual's age. The names and ages of the persons are known to us, for example Mary is 14 years old, Michael 15, Daniel also 15, and Matilda 16 (actual data would be more extensive, but this is just an illustration).
 
