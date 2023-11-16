@@ -50,7 +50,7 @@ True
 <class 'int'>
 ```
 
-What we see means that the first number is real and the second is integer (the word *float* denotes real numbers, and *int* denostes integers).
+What we see in the example above means that the first number is real and the second is an integer (the word *float* denotes real numbers, and *int* denotes integers).
 
 In this regard, note that in Python, the result of the ordinary division `/` is always a real number, even when the operands are integers and are divisible (there is no remainder). When we want the result of the division between two integers to be an integer, we should use the integer division operator `//`.
 

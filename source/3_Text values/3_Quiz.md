@@ -50,7 +50,7 @@ Which statement prints `` tra-la-la ''? (Mark all correct answers)
 ```{fitb}
 :answer: NANA
 
-What the statement **print(('N' + 'A') * 2)** prints?\
+What does the statement **print(('N' + 'A') * 2)** print?\
 |blank|
 
 ```
@@ -59,7 +59,7 @@ What the statement **print(('N' + 'A') * 2)** prints?\
 
 **Task - Profit Sharing**
 
-The three friends agreed to divide the profits from the joint venture so that the first would get 2/7 of the earnings, the second 1/3, and the third the remaining sum. The total profit was 40000. Complete the program, which will print, in two decimal places, the earnings of each of the three friends.
+Three friends agreed to divide the profits from a joint venture so that the first would get 2/7 of the earnings, the second 1/3, and the third would get the remaining sum. The total profit was 40000. Complete the program, which will print, in two decimal places, the earnings of each of the three friends.
 ```
 
 ```{py-code} 12

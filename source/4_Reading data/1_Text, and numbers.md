@@ -2,9 +2,9 @@
 
 ## Reading text
 
-The programs we have learned to write so far contain all the information needed and always work the same way. When we need a program to do the same thing with different data, we would have to modify the program itself. This method may be quite appropriate when changes to the data are small and not frequent.
+The programs we have learned to write so far contain all the information needed and always work the same way. When we need a program to do the same thing with different data, we would have to modify the program itself. This method may be quite appropriate when changes to the data are small and infrequent.
 
-Another way to get our program to handle more diverse tasks is to enable data entry. Iserting data into a program during its execution is done using the *input()* function. This function works by waiting for the program user to type something (and press the *Enter* key) and then returning the typed text as a result.
+Another way to get our program to handle more diverse tasks is to enable data entry. Inserting data into a program during its execution is done using the *input()* function. This function works by waiting for the program user to type something (and press the *Enter* key) and then returning the typed text as a result.
 
 When you run this program, to see how it works, type something and press *Enter*. Try the same program in the *IDLE* environment or on the *repl.it* site.
 
@@ -26,7 +26,7 @@ print("You wrote", s)
 
 Whether we choose one or the other form of the *input* function, depends on the purpose of the program. When writing a program in which other people will enter data, we use a form with an argument, serving as an instruction. When we write a program only for personal short-term (maybe even one-time) use, then we have no need for instructions and can use a form without arguments.
 
-Also, be aware that for some of the environments in which the program is running, we can arrange that data is being read from another location where we prepared it n advance, instead of reading the data from the keyboard. In such cases there is no waiting for the data to be entered, it is loaded automatically and there is no need to print the instruction. Therefore, in such cases we would also use the *input* function without arguments.
+Also, be aware that for some of the environments in which the program is running, we can arrange our program so  that the data is being read from another location where we've prepared it in advance, instead of reading the data from the keyboard. In such cases there is no waiting for the data to be entered, it is loaded automatically and there is no need to print the instruction. Therefore, in such cases we would also use the *input* function without arguments.
 
 ## Reading numbers
 
@@ -93,7 +93,7 @@ The conversion of an integer value to a real one is done automatically when need
 print(float(1))
 ```
 
-Conversely, when we need to convert a real number to an integer, that conversion does not happen automatically (for a reason) and needs to be set in the program by calling the *int()* function. When converting a real number to an integer, any decimals of the real number are discarded, which means that rounding is always **towards zero**. In other words, when the value of the real number *x* is not integer, * int(x)\* is closer to zero than *x*.
+Conversely, when we need to convert a real number to an integer, that conversion does not happen automatically (for a reason) and needs to be set in the program by calling the *int()* function. When converting a real number to an integer, any decimals of the real number are discarded, which means that rounding is always **towards zero**. In other words, when the value of the real number *x* is not an integer, *int(x)* is closer to zero than *x*.
 
 ```{py-code} 9
 

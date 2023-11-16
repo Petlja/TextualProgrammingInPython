@@ -14,18 +14,17 @@ a = input()
 print(a+3)
 ```
 
-What happens when we run the next program and enter ``2``?
-
-```{code}
-a = input()
-print(a+'3')
-```
 ```{mchoice}
 :answer1: The program will print 5
 :answer2: The program will print 23
 :answer3: An error will occur when trying to add a string and a number
 :correct: 2
 
+What happens when we run the next program and enter ``2``?
+
+```{code}
+a = input()
+print(a+'3')
 ```
 
 

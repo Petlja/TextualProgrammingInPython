@@ -46,9 +46,10 @@ We mentioned earlier that we should try to give meaningful names to the variable
 
 ```{questionnote}
 
-**Task - buying for all the money**
+**Task - spending all the money**
 
-How many items for 76 euros can be bought for 500 euros? How much money will remain if the largest possible number of items is bought?
+How many items worth 76 euros can be bought for 500 euros? How much money will remain if the largest possible number of items is bought?
+
 ```
 
 The shorter (and less clear) version of the solution is
@@ -56,6 +57,7 @@ The shorter (and less clear) version of the solution is
 ```{py-code} 3
 
 print(500 // 76, 500 % 76)
+
 ```
 
 Write a clearer solution using variables.
@@ -68,9 +70,9 @@ Write a clearer solution using variables.
 
 ```{questionnote}
 
-**Task - datum**
+**Task - Date**
 
-If today is the 15th of the month and the month is 31 days, how many days are there until the 11th of the next month (at the same time)?
+If today is the 15th of the month and the month is 31 days long, how many days are there until the 11th of the next month (at the same time of day)?
 ```
 
 Your job is to write a solution in which the starting and calculated values are assigned to variables. By clicking on the "short solution" button you can see a short solution as a hint.

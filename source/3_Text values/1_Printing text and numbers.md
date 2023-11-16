@@ -2,7 +2,7 @@
 
 In addition to integers and real numbers, one of the basic types of data in programming is text. The text data is called a **string**. In addition to letters, they can contain all other characters used in the text: punctuation, parentheses, numbers, mathematical operators, various special characters such as `%`, `$`, `^`. `&` etc.
 
-Text values are written between quotation marks. We call the text under quotation marks a **text constant** or a **literal**. Single `'...'` and double `"..."` quotes can equally be used in Python (it is only important that quotes are of the same type at the beginning and end of the string). For example:
+Text values are written between quotation marks. We call the text under quotation marks a **text constant** or a **literal**. Single `'...'` and double `"..."` quotes can be used interchangeably in Python (it is only important that quotes are of the same type at the beginning and end of the string). For example:
 
 ```
 s1 = 'One text'
