@@ -25,8 +25,6 @@ Notation $a<b$ can be understood as an expression whose value is true or false i
 
 ## The if statement
 
-The *if* statement was already introduced in the Karel lessons, let's remind ourselves:
-
 The *if* statement is used to decide which of the two groups of statements to execute. In Python it is written as follows:
 
 ```{code}

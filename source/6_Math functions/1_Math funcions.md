@@ -17,6 +17,7 @@ print("abs(-7) =", abs(-7))
 print("abs(-5 - -2) =", abs(-5 - -2))
 print("min(5, 2, 7, 3) =", min(5, 2, 7, 3))
 print("max(5, 2, 7, 3) =", max(5, 2, 7, 3))
+
 ```
 
 ## Functions *abs()*, *min()* and *max()* - questions
@@ -64,7 +65,7 @@ What is the value of the expression ``max(10, 20, 30)``?
 
 ## Value Rounding Functions
 
-Rounding up real value to an integer is an operation we also often need. We have already seen that by converting a real number to a whole number, we round it towards zero. There are a few more functions that we can use in Python to round up a real number in different ways:
+Rounding up a real value to an integer is an operation we also often need. We have already seen that by converting a real number to a whole number, we round it towards zero. There are a few more functions that we can use in Python to round up a real number in different ways:
 
 - function *round()* returns the integer closest to the argument (type of the result is int);
 - function *floor()* returns the nearest integer less than or equal to the argument value (type of the result is float);
@@ -87,7 +88,7 @@ print("math.ceil(56.789) =", math.ceil(56.789))
 
 ```
 
-Note that the *floor* and *ceil* functions are somewhat different from the *round* function and all previous functions - it says \`\` math.\`\` in front of their name in the program. This is because these functions are defined in a module called *math*. Modules are programmatic entities that contain various functions, constants, and other pieces of code that we can use in our programs. The *math* module contains many other functions in addition to the *floor* and *ceil* functions. For example, the known constant pi can be used as *math.pi*, and the function square root as *math.sqrt* (we will not use them here).
+Note that the *floor* and *ceil* functions are somewhat different from the *round* function and all previous functions - it says ``math.`` in front of their name in the program. This is because these functions are defined in a module called *math*. Modules are programmatic entities that contain various functions, constants, and other pieces of code that we can use in our programs. The *math* module contains many other functions in addition to the *floor* and *ceil* functions. For example, the known constant pi can be used as *math.pi*, and the function square root as *math.sqrt* (we will not use them here).
 
 In order to use the functions of the *math* module, we need to attach this module to our program. We did this by writing `import math` at the beginning of the program. This, of course, enables us to use all other mathematical functions and everything else defined in this module as well.
 
@@ -130,16 +131,17 @@ One cashier rounds the bill to the nearest integer only if the amount is increas
     Match rounding functions with the way of rounding.
 ``` -->
 
-```{questionnote}
+```{learnmorenote}
 
-**The task for the curious** - function *round*
+**If you want to learn more about the*round* function** 
 
 The *round* function can also be called with two arguments (we won't use it that way), where the second argument is usually a small integer. Check for example the values of :math:`round(123.23456, 2)`, :math:`round(123.23456, 3)` and :math:`round(123.23456, -1)`. You can use the space below for trying things out quickly.
 
 Try explaining what the second argument of *round* is for when a function is called with two arguments.
-```
 
 ```{py-code} 3
 
 # insert your code here
+```
+
 ```

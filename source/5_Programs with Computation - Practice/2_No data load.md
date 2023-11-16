@@ -6,7 +6,7 @@
 
 **Example - paintwork**
 
-Philip prepares to paint the ceiling in one room. In order to know how much paint to buy, he needs to know the dimensions of the room and how many square meters one kilogram of paint covers. Write a program that loads the length of the room, the width of the room, an area that can be covered by one kilogram of paint, and prints the required number of kilograms of paint.
+Philip is preparing to paint the ceiling in one room. In order to know how much paint to buy, he needs to know the dimensions of the room and how many square meters one kilogram of paint covers. Write a program that loads the length of the room, the width of the room, an area that can be covered by one kilogram of paint, and prints the required number of kilograms of paint.
 ```
 
 Solution:
@@ -26,7 +26,7 @@ print(needed_kg, "kg of paint is required.")
 
 **Task - rabits**
 
-The rabbit population on one island is doubling every year. Write a program that loads the current number of rabbits on the island and the number of years, and prints how many rabbits would be on the island in a given number of years if they continue to reproduce at the same pace.
+The rabbit population on one island is being doubled every year. Write a program that loads the current number of rabbits on the island and the number of years, and prints how many rabbits would be on the island in a given number of years if they continue to reproduce at the same pace.
 ```
 
 ```{py-code} 8

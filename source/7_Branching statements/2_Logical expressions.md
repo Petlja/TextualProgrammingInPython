@@ -14,7 +14,7 @@ These conditions can be further combined into even more complex ones according t
 
 **Example - leap year:**
 
-Write a program that prints whether a given year (between the 1800 and the 2200, including borders) is leaп or simple.
+Write a program that prints whether a given year (between the 1800 and the 2200, including borders) is leap or simple.
 
 According to the Gregorian calendar, the following rules are used to determine whether a year is simple or leap:
 

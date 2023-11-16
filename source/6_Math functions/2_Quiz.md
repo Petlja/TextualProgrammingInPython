@@ -25,7 +25,7 @@ print(num_packages, "packages can be made.")
 
 **Task - lemonade:**
 
-A group of people set out on a journey and Zoe made lemonade for everyone. Write a program that loads how many liters of lemonade Zoe has made (as a real number), then writes how many half-liter bottles can be filled with that lemonade and how many bottles it takes for all the lemonade (the two numbers can vary by one at most).
+A group of people set out on a journey and Zoe made lemonade for everyone. Write a program that loads how many liters of lemonade Zoe has made (as a real number), then writes how many half-liter bottles can be filled with that lemonade and how many bottles it takes to fit al the lemonade in (the two numbers can vary by one at most).
 
 ```
 
@@ -42,7 +42,7 @@ print("A total of", total_bottles, "bottles are required.")
 
 **Task - the game:**
 
-The six friends agreed to get on the playground at a certain time and play a game. Write a program that loads the delay time of each player in minutes (as whole numbers) and prints with how many minutes of delay the match could have started.
+Six friends agreed to get on the playground at a certain time and play a game. Write a program that loads the delay time of each player in minutes (as whole numbers) and prints with how many minutes of delay the match could have started.
 ```
 
 ```{py-code} 3
@@ -58,7 +58,7 @@ print("The match could have started with a", game_delay, "minute delay.")
 
 **Task - two buses:**
 
-Maya and Lola travel on the same highway in two different buses and talk on the phone. One of them has just noticed the milestone *x* and the other has noticed the milestone *y*. Write a program that loads integers: *x* and *y* and prints how many miles Maya and Lola are away from each other.
+Maya and Lola are travelling on the same highway using two different buses and are talking on the phone. One of them has just noticed the milestone *x* and the other has noticed the milestone *y*. Write a program that loads integers: *x* and *y* and prints how many miles Maya and Lola are away from each other.
 ```
 
 ```{py-code} 4

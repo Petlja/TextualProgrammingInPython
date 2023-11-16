@@ -53,7 +53,7 @@ is optional and can be omitted if not needed.
 
 **Example - body mass index:**
 
-Body mass index (abbreviated bmi) is used for quick orientation regarding the degree of obesity or weight loss. The formula for calculating body mass index is :math:`bmi = {m \over {h \times h}}`, where *m* is the mass in kilograms and *h* is the height in meters. The *bmi* values are interpreted as follows:
+The body mass index (abbreviated bmi) is used for quick orientation regarding the degree of obesity or weight loss. The formula for calculating body mass index is $bmi = {m \over {h \times h}}$, where *m* is the mass in kilograms and *h* is the height in meters. The *bmi* values are interpreted as follows:
 
 - up to 18.5: malnourished person
 - from 18.5 to 25: person of normal body weight

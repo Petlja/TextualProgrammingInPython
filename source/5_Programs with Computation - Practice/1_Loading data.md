@@ -87,7 +87,7 @@ Your job is to write a solution in which the starting and calculated values are 
 
 ```{questionnote}
 
-**Task - purchase of 3 pieces**
+**Task - purchase of 3 articles**
 
 Ben has 20 euros and wants to buy 3 bicycle lamps for 1.58 euros each. How much money will he have left?
 ```
