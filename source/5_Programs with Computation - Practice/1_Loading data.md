@@ -18,6 +18,7 @@ Write a program that calculates and prints how much more space is available.
 The problem can be solved as follows:
 
 ```{py-code} 1
+:opt-in-ai:
 
 print(100-43-28)
 ```
@@ -25,6 +26,7 @@ print(100-43-28)
 or like this:
 
 ```{py-code} 2
+:opt-in-ai:
 
 total_places = 100
 called_by_jessica = 43
@@ -55,6 +57,7 @@ How many items worth 76 euros can be bought for 500 euros? How much money will r
 The shorter (and less clear) version of the solution is
 
 ```{py-code} 3
+:opt-in-ai:
 
 print(500 // 76, 500 % 76)
 
@@ -63,6 +66,7 @@ print(500 // 76, 500 % 76)
 Write a clearer solution using variables.
 
 ```{py-code} 4
+:opt-in-ai:
 
 # insert your code here
 
@@ -80,6 +84,7 @@ Your job is to write a solution in which the starting and calculated values are 
 -->
 
 ```{py-code} 5
+:opt-in-ai:
 
     # insert your code here
 
@@ -95,6 +100,7 @@ Ben has 20 euros and wants to buy 3 bicycle lamps for 1.58 euros each. How much 
 Write a program that uses variables for the starting and calculated values.
 
 ```{py-code} 6
+:opt-in-ai:
  
 # insert your code here
 

@@ -20,6 +20,7 @@ Write a program that asks three questions, accepts the answers to those question
 ```
 
 ```{py-code} 4
+:opt-in-ai:
 
 girl = input("Is it a girl? ") == 'y'
 sportsperson = input("Does he or she go to the sports section? ") == 'y'
@@ -51,6 +52,7 @@ else:
 Note that programs with nested branches can be modified to use only consecutive conditions and form with *elif*, without inserting *if* statements in depth. In doing so, we use complex conditions, which we build using logical operations *and*, *or* and *not*.
 
 ```{py-code} 5
+:opt-in-ai:
 
 girl = input("Is it a girl? ") == 'y'
 sportsperson = input("Does he or she go to the sports section? ") == 'y'
@@ -91,6 +93,7 @@ Write a program that loads one house number on street A and answers whether that
 **Hint:** After loading, you should first check if `n` is even, that is, if `n % 2 == 0`.
 
 ```{py-code} 6
+:opt-in-ai:
  
 n = int(input("What is the house number: "))
 # finish the program
@@ -113,6 +116,7 @@ Write a program that first loads John's math grade and then English grade and pr
 ```
 
 ```{py-code} 7
+:opt-in-ai:
 
 math = int(input("What is the grade in math: "))
 english = int(input("What is the grade in English: "))
@@ -134,6 +138,7 @@ The task for you is to write a program that loads the temperature first, then th
 ```
 
 ```{py-code} 8
+:opt-in-ai:
 
 t = int(input("What is the temperature: "))
 chance_of_rain = int(input("What are the chances of rain: "))

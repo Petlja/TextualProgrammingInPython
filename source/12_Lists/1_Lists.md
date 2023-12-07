@@ -7,6 +7,7 @@ So far, we have mentioned tuples and ranges as types of collections, and we have
 Lists, as well as tuples, can be specified by enumerating the elements, except that the list elements are written between square brackets:
 
 ```{py-code} 1
+:opt-in-ai:
 
 for x in [2, 5, 8, 3]:
     print(x)
@@ -19,6 +20,7 @@ The lists are in many ways similar to tuples. All of the features of the tuples 
 - list length is obtained by the function *len*
 
 ```{py-code} 2
+:opt-in-ai:
 
 names = ["Tom", "Polly", "Filip", "Mary"]
 t, p, f, m = names
@@ -30,6 +32,7 @@ print("len(names) =", len(names))
 The lists also have some features that set them apart from the tuples. For example, lists can be extended using the *append* function:
 
 ```{py-code} 3
+:opt-in-ai:
 
 a = []
 a.append(3)
@@ -43,6 +46,7 @@ for x in a:
 Also, list elements can change their values and can be deleted from the list:
 
 ```{py-code} 4
+:opt-in-ai:
 
 a = [3, 7, 2]
 print("Initial list:")
@@ -71,6 +75,7 @@ Tuple *t* can be converted to a list *a* during the program execution, and vice 
 As we have already seen, we can gradually build lists in a program. For example, if we are given a tuple of numbers from which we want to copy those that are greater than zero (and perform some extra task with these numbers latter), we can do this:
 
 ```{py-code} 5
+:opt-in-ai:
 
 numbers  = (2, 5, -2, 1, -3, 4, -7, 3)
 positive_numbers = []
@@ -89,6 +94,7 @@ At the beginning we have an empty list, and then in the loop we use the *append*
 In the same way, we can load data into a list:
 
 ```{py-code} 6
+:opt-in-ai:
 
 a = []
 n = int(input("How many elements to load: "))
@@ -105,6 +111,7 @@ for x in a:
 Another way to load a list is to first form a list of required length and then assign the loaded values directly to the list elements in the loop.
 
 ```{py-code} 7
+:opt-in-ai:
 
 n = int(input("How many elements to load: "))
 a = [0] * n
@@ -121,6 +128,7 @@ We used the statement `a = [0] * n` to form a list of *n* elements. The operatio
 If the user enters all the elements of the list in one line separated by spaces, we write the program like this:
 
 ```{py-code} 8
+:opt-in-ai:
 
 a_str = input("Enter all the elements: ")
 a = []

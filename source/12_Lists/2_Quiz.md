@@ -8,6 +8,7 @@ At the beginning of the script, the values of several sales in one store are giv
 ```
 
 ```{py-code} 9
+:opt-in-ai:
 
 sales = (241, 5372, 1278, 9335, 2438, 127, 529, 6027)
 lower_bound = 1000
@@ -18,6 +19,7 @@ upper_bound = 4000
 The problem is solved as follows:
 
 ```{py-code} 10
+:opt-in-ai:
 
 sales = (241, 5372, 1278, 9335, 2438, 127, 529, 6027)
 lower_bound = 1000
@@ -42,6 +44,7 @@ A tuple of numbers is given. Extract numbers that differ from their predecessors
 ```
 
 ```{py-code} 11
+:opt-in-ai:
 
     numbers = (5, 7, 9, 11, 22, 18, 15, 13, 36, 31, 27, 14, 13, 20)
     # complete the program
@@ -50,6 +53,7 @@ A tuple of numbers is given. Extract numbers that differ from their predecessors
 One possible solution is:
 
 ```{py-code} 12
+:opt-in-ai:
 
 numbers = (5, 7, 9, 11, 22, 18, 15, 13, 36, 31, 27, 14, 13, 20)
 leap_changes = []
@@ -77,6 +81,7 @@ Recall that the number ``x`` is even if ``x % 2 == 0``
 ```
 
 ```{py-code} 13
+:opt-in-ai:
 
 a = (35, 12, 32, 17, 64, 98, 77, 46, 9)
 even = []
@@ -100,6 +105,7 @@ A tuple of strings is given. Extract strings **whose indices** are divisible by 
 ```
 
 ```{py-code} 14
+:opt-in-ai:
 
     words = ('All', 'the', 'other', 'words', 'and', 'phrases', 'are', 'not', 'so', 'important')
     every_third = []
@@ -123,6 +129,7 @@ A tuple of numbers is given. Extract the numbers that are negative and their pre
 ```
 
 ```{py-code} 15
+:opt-in-ai:
 
 a = (1, -2, 3, 5, -4, -1, -3, 2, -7)
 extracted = []

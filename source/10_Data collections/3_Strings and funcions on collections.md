@@ -5,6 +5,7 @@
 We have used strings as the basic type so far, but strings can also be used as collections of individual characters. We can traverse string characters using a loop and retrieve individual characters using indices:
 
 ```{py-code} 14
+:opt-in-ai:
 
 s = 'text'
 print(s[1], s[2])
@@ -21,6 +22,7 @@ There are many functions in Python that accept a collection as an argument. One 
 - *sum*, a function that gives the sum of the elements of a collection
 
 ```{py-code} 15
+:opt-in-ai:
 
 print('Tuple:')
 t = (2, 8, 4, 15, 3)

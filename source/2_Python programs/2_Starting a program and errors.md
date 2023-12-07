@@ -5,6 +5,7 @@
 To help you get started, we used the **Py-Code**  component of our Petlja-Sphinx-Extensions open-source project powered by [Pyodide](https://pyodide.org/en/stable/) to enable you to run Python programs in the web pages of this course. For example, below are the statements we previously entered interactively, but this time written as a program. You can start the program by clicking the "Run" button.
 
 ```{py-code} 1
+:opt-in-ai:
 
 a = 10
 b = 20
@@ -57,6 +58,7 @@ When you make a few intentional errors, you will gain some experience how error 
 You can try some errors here:
 
 ```{py-code} 2
+:opt-in-ai:
 
 # add statement(s)
 
@@ -67,6 +69,7 @@ We have also prepared a few programs with intentionally made mistakes, which we 
 Run each of the following programs, then see the error message and explanation.
 
 ```{py-code} 3
+:opt-in-ai:
 
 prit(2+2)
 ```
@@ -74,6 +77,7 @@ prit(2+2)
 The message says that it is an error of type *NameError*. This means that some of the names in the specified line are unknown to the Python interpreter (name is not defined). Note that the name of the *print* function is not spelled correctly (and the function *prit* does not exist). By inserting the letter *n* the error is corrected and the program works.
 
 ```{py-code} 4
+:opt-in-ai:
 
 result = 2 + 2
 print(resultt)
@@ -84,6 +88,7 @@ The error is of the same type, only this time it refers to the name *resultt*. B
 Now lets look at another example.
 
 ```{py-code} 5
+:opt-in-ai:
 
 a = 3
 b = 2
@@ -93,6 +98,7 @@ print(a b)
 The error type is *SyntaxError*, which means that Python statement construction rules are were not followed. In this case, a comma between *a* and *b* is missing.
 
 ```{py-code} 6
+:opt-in-ai:
 
 a = 3
 b = 2
@@ -102,6 +108,7 @@ print a, b
 Another syntax error. Again, the rules of statement construction were not followed, and this time the brackets are missing.
 
 ```{py-code} 7
+:opt-in-ai:
 
 a = 3
 b = 0

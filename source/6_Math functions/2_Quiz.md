@@ -12,6 +12,7 @@ Thomas distributes advertising packages containing a flyer, a keychain and a pen
 To finish the program insert one of the mathematical functions you have learned.
 
 ```{py-code} 1
+:opt-in-ai:
 
 num_flyers = int(input("How many flyers are there?"))
 num_keychains = int(input("How many keychains are there?"))
@@ -30,6 +31,7 @@ A group of people set out on a journey and Zoe made lemonade for everyone. Write
 ```
 
 ```{py-code} 2
+:opt-in-ai:
 
 liters = float(input())
 num_full_bottles = 0 # complete the statement
@@ -46,6 +48,7 @@ Six friends agreed to get on the playground at a certain time and play a game. W
 ```
 
 ```{py-code} 3
+:opt-in-ai:
 
 t1 = int(input("How many minutes late was the first: "))
 # load the remaining data the same way
@@ -62,6 +65,7 @@ Maya and Lola are travelling on the same highway using two different buses and a
 ```
 
 ```{py-code} 4
+:opt-in-ai:
 
 x = int(input("Enter x: "))
 y = int(input("Enter y: "))
@@ -77,6 +81,7 @@ The course consists of several video lessons that all last equally. You have dec
 ```
 
 ```{py-code} 5
+:opt-in-ai:
 
 # insert your code here
 ```

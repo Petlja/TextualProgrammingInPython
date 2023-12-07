@@ -66,6 +66,7 @@ Write a program that takes a person's weight and height and then writes to which
 One possible solution is given below. Consider why it is not necessary to use complex logical conditions (built with words *and*, *or*, *not*) in this solution.
 
 ```{py-code} 1
+:opt-in-ai:
 
 m = float(input('Body mass: '))
 h = float(input('Body height: '))
@@ -100,6 +101,7 @@ For example, if age is 15, the program should print *U16*
 ```
 
 ```{py-code} 2
+:opt-in-ai:
 
 g = int(input("How old is player: "))
 # finish the program
@@ -115,6 +117,7 @@ Write a program that loads an integer from 1 to 6 (including borders) and prints
 ```
 
 ```{py-code} 3
+:opt-in-ai:
 
 n = int(input("Enter a number from 1 to 6: "))
 # finish the program

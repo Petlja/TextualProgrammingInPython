@@ -12,6 +12,7 @@ Write a program that for a given coordinate in degrees, minutes and seconds, pri
 The program is almost completely written. An expression needs to be added to calculate the real number of degrees. To convert the (angular) minutes into degrees, we divide them by $60$, and we convert the seconds into degrees by dividing by $60 \cdot 60 = 3600$.
 
 ```{py-code} 3
+:opt-in-ai:
 
    degrees = int(input())
    minutes = int(input())
@@ -36,6 +37,7 @@ After you realized that the old map from the previous assignment was a joke, you
 &#160;    Complete the started program that performs this conversion.
 
 ```{py-code} 4
+:opt-in-ai:
 
 def deg_min_sec(real_degrees):
     # complete the function by calculating three values that the function returns
@@ -61,6 +63,7 @@ A partially written program is given that loads the start and end times in hours
 ```
 
 ```{py-code} 5
+:opt-in-ai:
 
 # write the duration function
 

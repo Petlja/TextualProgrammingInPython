@@ -12,6 +12,7 @@ Philip is preparing to paint the ceiling in one room. In order to know how much 
 Solution:
 
 ```{py-code} 7
+:opt-in-ai:
 
 length = float(input("Enter the length of the room: "))
 width = float(input("Enter the width of the room: "))
@@ -30,6 +31,7 @@ The rabbit population on one island is being doubled every year. Write a program
 ```
 
 ```{py-code} 8
+:opt-in-ai:
 
 # insert your code here
 
@@ -43,6 +45,7 @@ John buys the car in installments. Write a program that sequentially loads the c
 ```
 
 ```{py-code} 9
+:opt-in-ai:
 
 # insert your code here
 ```

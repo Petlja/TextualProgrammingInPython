@@ -57,6 +57,7 @@ Write a program that takes integers *a*, *b*, *c* and answers the question wheth
 ```
 
 ```{py-code} 9
+:opt-in-ai:
 
 a = int(input("a = "))
 b = int(input("b = "))
@@ -74,6 +75,7 @@ Write a program that takes integers *a*, *b*, *c* and answers the question wheth
 ```
 
 ```{py-code} 10
+:opt-in-ai:
 
     a = int(input("a = "))
     b = int(input("b = "))
@@ -94,6 +96,7 @@ Write a program that takes integers *a1*, *a2*, *m1* and *m2*, and answers the q
 **Hint:** trips overlap if Mark leaves before Ana returns (the day of Mark's departure is less than or equal to the day of Ana's return) or vice versa - if Ana leaves before Mark returns.
 
 ```{py-code} 11
+:opt-in-ai:
 
 a1 = int(input("a1 = "))
 a2 = int(input("a2 = "))

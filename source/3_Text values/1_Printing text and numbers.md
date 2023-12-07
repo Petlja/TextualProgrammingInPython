@@ -16,6 +16,7 @@ We will use the word string for the textual data type, as well as for any expres
 The strings are printed in the same way as the numeric data. The string we want to print is simply specified as a *print()* function argument.
 
 ```{py-code} 1
+:opt-in-ai:
 
 print("Hello world!")
 ```
@@ -23,6 +24,7 @@ print("Hello world!")
 When the *print()* function has multiple arguments, these arguments can be of different types:
 
 ```{py-code} 2
+:opt-in-ai:
 
 print('2+2 =', 2+2)
 ```
@@ -34,6 +36,7 @@ When we use multiple arguments, we write them separated by commas (as with any f
 Sometimes the printed result looks illegible:
 
 ```{py-code} 3
+:opt-in-ai:
 
 print(5/3)
 ```
@@ -41,6 +44,7 @@ print(5/3)
 Most often we don't need all these digits. Real numbers can look more readable if we use the *format* function. With this function (among other things) we can specify how many digits after the decimal point we want to display:
 
 ```{py-code} 4
+:opt-in-ai:
 
 x = 5/3
 s = format(x, '.2f')
@@ -54,6 +58,7 @@ Note that this formatted printing does not change the value of the variable *x*.
 We've broken the example down into steps to make it clearer, though it could also be written in one line of code. For example, to print with 4 decimal places:
 
 ```{py-code} 5
+:opt-in-ai:
 
 print(format(5/3, '.4f'))
 ```
@@ -63,6 +68,7 @@ ______________________________________________________________________
 When displaying multiple real numbers one below the other, we can make them more readable by aligning the decimal points. For example, this way of printing is not easily comprehensible:
 
 ```{py-code} 6
+:opt-in-ai:
 
 print(-1.23)
 print(7251.7)
@@ -72,6 +78,7 @@ print(84.15)
 To get a more readable look, we can use the *format* function like this:
 
 ```{py-code} 7
+:opt-in-ai:
 
 print(format(-1.23, '8.2f'))
 print(format(7251.7, '8.2f'))

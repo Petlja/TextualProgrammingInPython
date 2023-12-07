@@ -26,6 +26,7 @@ According to the Gregorian calendar, the following rules are used to determine w
 Writing down these rules in the form of logical conditions, we get:
 
 ```{py-code} 5
+:opt-in-ai:
 
 year = int(input())
 if (year % 4 > 0) or (year % 100 == 0 and year % 400 > 0):
@@ -37,6 +38,7 @@ else:
 We get an equally good solution if we use the description for leap years given in rule 3 (verify by thinking through it and by trying both programs that we get the same result):
  
 ```{py-code} 6
+:opt-in-ai:
 
 year = int(input())
 if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
@@ -54,6 +56,7 @@ The opening hours of one souvenir shop are from 7 to 11 in the morning and from 
 ```
 
 ```{py-code} 7
+:opt-in-ai:
 
 h = int(input())
 if (7 <= h and h < 11) or (17 <= h and h < 22):
@@ -65,6 +68,7 @@ else:
 We can also come to a solution by gradually computing logical values, using logical variables:
 
 ```{py-code} 8
+:opt-in-ai:
 
 h = int(input())
 at_morning_office_hours  = 7 <= h and h < 11

@@ -11,6 +11,7 @@ Ronnie should arrive at the destination no later than 5:00 pm. Depending on the 
 A program that solves this task could look like this:
 
 ```{py-code} 4
+:opt-in-ai:
 
 arrival = 17*60
 for travel_duration in (55, 70, 85, 95):
@@ -31,6 +32,7 @@ George intends to start a 600-kilometer car trip at 9 a.m. and is interested in 
 ```
 
 ```{py-code} 5
+:opt-in-ai:
 
 path_length = 600 # Km
 leaving = 9       # h
@@ -61,6 +63,7 @@ The sum of 5 Katie's grades so far is 23. Katie expects another grade from the f
 ```
 
 ```{py-code} 6
+:opt-in-ai:
 
 sum_grades_so_far = 23
 num_grades_so_far = 5
@@ -80,6 +83,7 @@ Little Theo makes a plan for spending his pocket money over a 14-day vacation. W
 ```
 
 ```{py-code} 7
+:opt-in-ai:
 
 num_days = 14
 # finish the program

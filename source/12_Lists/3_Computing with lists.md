@@ -12,6 +12,7 @@ A tuple of numbers is given. Print the smallest positive number from that tuple.
 This task is a combination of the tasks we have done so far. In the first part of the assignment we copy the positive numbers from the tuple into the list, and in the second part we apply the function *min* to the list of positive numbers.
 
 ```{py-code} 1
+:opt-in-ai:
 
 a = (-4, 3, 4, -3, 5, 6, 2, -5)
 positive = []
@@ -34,6 +35,7 @@ Write a program that lists how many times each of the machines malfunctioned, fo
 ```
 
 ```{py-code} 2
+:opt-in-ai:
 
 failures = (0, 2, 1, 3, 2, 4, 2, 6, 4, 7, 4, 8)
 ```
@@ -73,6 +75,7 @@ for machine in not_failed:
 Here's what the whole program looks like:
 
 ```{py-code} 3
+:opt-in-ai:
 
 failures = (0, 2, 1, 3, 2, 4, 2, 6, 4, 7, 4, 8)
 num_failures = [0] * 10
@@ -110,6 +113,7 @@ Each country is represented by a number from 0 to 7. The given numbers for each 
 The assignment asks for each number 0 to 7 to count how many times that number appears among the given numbers. The missing part in the script is very similar to counting the failures in the given example.
 
 ```{py-code} 4
+:opt-in-ai:
 
 fans = (1, 2, 3, 2, 3, 0, 2, 4, 3, 5, 6, 4, 0, 5, 3, 7, 1, 6, 3)
 num_fans = [0] * 8
@@ -143,6 +147,7 @@ If you complete the task correctly, the program should print number 3, because t
 
 
 ```{py-code} 5
+:opt-in-ai:
 
 fans = (1, 2, 3, 2, 3, 0, 2, 4, 3, 5, 6, 4, 0, 5, 3, 7, 1, 6, 3)
 
@@ -160,6 +165,7 @@ A tuple of numbers is given. Print the largest negative number from that tuple.
 ```
 
 ```{py-code} 6
+:opt-in-ai:
 
 a = (-4, 3, 4, -3, 5, 6, 2, -5)
 
@@ -175,6 +181,7 @@ The tuple is given that contains the amounts of customer accounts in one sales n
 There are two ways to solve this task. One is to extract small amounts to a separate list and apply the *sum* function to that list. Another way is to gradually build up the sum, as we did in the lesson on counting and summing.
 
 ```{py-code} 7
+:opt-in-ai:
 
 sales = (158, 681, 249, 1250, 335, 5400, 455)
 

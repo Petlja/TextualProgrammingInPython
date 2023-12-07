@@ -3,6 +3,7 @@
 People often write short programs In Python and use them by themselves to calculate or automate something. Such programs are also known as **scripts.** It is not unusual for scripts to have some or all of the input data contained within the script itself instead of being loaded. For example, the following script calculates a 20 percent discount:
 
 ```{py-code} 1
+:opt-in-ai:
 
 discount = 20
 regular_price = 250
@@ -27,6 +28,7 @@ Let's make the previous example more general. Suppose that in one store we are e
 The solution we already know how to write is to load the regular price of the product and then calculate and print the reduced price. This program can look like this:
 
 ```{py-code} 2
+:opt-in-ai:
 
 discount = 20
 regular_price = int(input())
@@ -47,6 +49,7 @@ In order to be able to repeat a part of the program for each piece of multiple d
 Let's return to the discounted price example. Let's say that the regular prices of the products we are interested in are 250, 120, and 310 and we want to calculate the discounted prices for those products with a single execution. Here is how we can do it:
 
 ```{py-code} 3
+:opt-in-ai:
 
 discount = 20
 for regular_price in (250, 120, 310):

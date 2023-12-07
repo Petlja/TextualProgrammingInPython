@@ -77,6 +77,7 @@ Peter and Mark want to play a game of pool. They agreed that the younger player 
 ```
 
 ```{py-code} 1
+:opt-in-ai:
 
 peter = int(input("How old is Peter: "))
 mark = int(input("How old is Mark: "))
@@ -96,6 +97,7 @@ The eggs on the farm are packed in 10-pack boxes and full boxes are sent to the 
 Here we need to check that the number of eggs is divisible by 10. For this reason, we use the operator `%`, which gives the remainder after division. If the remainder after dividing the number of eggs by 10 is equal to zero, all the eggs can be packed and sent.
 
 ```{py-code} 2
+:opt-in-ai:
 
 num_eggs = int(input("How many eggs: "))
 if num_eggs % 10 == 0:
@@ -116,6 +118,7 @@ Even house numbers are on the right side of the street and odd house numbers on 
 Here it is needed to examine if the given number is divisible by 2. The task is similar to the previous one - if the remainder of dividing the given house number by 2 is equal to zero, the number is on the right side of the street, otherwise it is on the left side.
 
 ```{py-code} 3
+:opt-in-ai:
 
 number = int(input("What is the house number: "))
 # finish the program
@@ -131,6 +134,7 @@ You have 10 euros with you. Write a program that takes the movie ticket price an
 ```
 
 ```{py-code} 4
+:opt-in-ai:
 
 ticket_price = int(input("How much for the ticket: "))
 popcorn_price = int(input("How much for the popcorn: "))

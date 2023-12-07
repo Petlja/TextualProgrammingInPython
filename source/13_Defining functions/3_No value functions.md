@@ -14,6 +14,7 @@ Write a program that loads the departure time in hours and minutes for each fami
 The *process_family_member* function performs all the necessary actions for one family member: it loads the departure time, than based on departure time it extends the duration of the trip if necessary, then calculates and prints the time of arrival home. In the main program, this function is just called for each family member.
 
 ```{py-code} 6
+:opt-in-ai:
 
 def process_family_member(which_one, travel_duration):
     prompt = 'Enter the hour and minute of departure of the ' + which_one + ' member'

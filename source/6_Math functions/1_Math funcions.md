@@ -11,6 +11,7 @@ The *abs()*, *min()* and *max()* functions are often used in computational tasks
 Here's how to use these functions in a program:
 
 ```{py-code} 1
+:opt-in-ai:
 
 print("abs(3) =", abs(3))
 print("abs(-7) =", abs(-7))
@@ -74,6 +75,7 @@ Rounding up a real value to an integer is an operation we also often need. We ha
 Run the following program to see how these functions work and to compare them.
 
 ```{py-code} 2
+:opt-in-ai:
 
 import math
 
@@ -140,6 +142,7 @@ The *round* function can also be called with two arguments (we won't use it that
 Try explaining what the second argument of *round* is for when a function is called with two arguments.
 
 ```{py-code} 3
+:opt-in-ai:
 
 # insert your code here
 ```

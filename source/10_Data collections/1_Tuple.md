@@ -13,6 +13,7 @@ The only collections we have seen so far are tuples, which we will now get to kn
 We can fit the whole tuple into a variable, as we do with values of a simpler type. In the following example, the *temperatures* variable contains the entire tuple as its value.
 
 ```{py-code} 1
+:opt-in-ai:
 
 temperatures = (25, 24, 25, 23, 25, 25)
 for t in temperatures:
@@ -22,6 +23,7 @@ for t in temperatures:
 This kind of value assignment (as in the first line of the program) is known as tuple packing. The reverse assignment is also possible: when we know how many elements are there in a tuple, we can assign the tuple elements to the corresponding number of variables:
 
 ```{py-code} 2
+:opt-in-ai:
 
 full_name = ("Arthur", "Conan", "Doyle")
 first_name, middle_name, last_name = full_name
@@ -45,6 +47,7 @@ Tuples do not appear in this statement, which is called multiple value assignmen
 We can also get the elements of a tuple by writing the name of the tuple, and behind it in square brackets the sequence number of the element we want. It should be noted here that counting the elements of any collection starts from zero. For example:
 
 ```{py-code} 3
+:opt-in-ai:
 
 basic_colors = ("Red", "Green", "Blue")
 print(basic_colors[0])
@@ -59,6 +62,7 @@ The sequence number of an element is also called the **index** of the element. i
 The number of elements of a tuple can be obtained by using the *len* function.
 
 ```{py-code} 4
+:opt-in-ai:
 
 basic_colors = ("Red", "Green", "Blue")
 n = len(basic_colors)
@@ -68,6 +72,7 @@ print(n)
 or shorter:
 
 ```{py-code} 5
+:opt-in-ai:
 
 print(len(("Red", "Green", "Blue")))
 ```
@@ -79,6 +84,7 @@ Through these examples we have seen that tuple elements can be numbers or string
 For example, it is possible to create a tuple of tuples:
 
 ```{py-code} 6
+:opt-in-ai:
 
 t = ((11, 12, 13), (21, 22, 23))
 print(len(t))

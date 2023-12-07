@@ -12,6 +12,7 @@ Write a function which prints how much the certain customer should pay for the g
 The customer name is passed to the function here for print purposes only. The price of goods is calculated on the basis of quantity, which is passed on to the function as a second argument.
 
 ```{py-code} 7
+:opt-in-ai:
 
 # define the function print_price
 
@@ -34,6 +35,7 @@ Write the *underline(text)* function, which shows the given text underlined.
 **Hint:** The *underline* function should consist of only two *print* statements. The first statement should print the given text, and the second one should print the line. You can get a string containing a line by multiplying the string `'-'` by the length of the given string.
 
 ```{py-code} 8
+:opt-in-ai:
 
 # define the function 'underline'
 

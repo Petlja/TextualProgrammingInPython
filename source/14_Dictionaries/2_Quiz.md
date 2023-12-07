@@ -17,6 +17,7 @@ Put this information in a dictionary and then complete the program by loading th
 ```
 
 ```{py-code} 4
+:opt-in-ai:
 
 ```
 
@@ -30,6 +31,7 @@ To help you check your program, here is the expected result: for the data given 
 ```
 
 ```{py-code} 5
+:opt-in-ai:
 
     absent = (
         'Maya', 'James', 'Violet', 'Alexander', 'James',
@@ -65,6 +67,7 @@ Check the result: for the data given, you should get (in any order)
 In this task, the most important part of the program is traversing through all the pairs. For clarity, we immediately unpack each pair from the tuple *changes* to variables *good*, *change*.
 
 ```{py-code} 6
+:opt-in-ai:
 
     changes = (
         ('cheese', 20), ('milk', 300), ('cheese', -1.5), ('flour', 1000),

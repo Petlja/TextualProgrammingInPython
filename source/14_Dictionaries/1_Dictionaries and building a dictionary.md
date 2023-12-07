@@ -7,6 +7,7 @@ Suppose we need to write a program that answers questions about an individual's 
 We can solve this problem by placing the names in one tuple and the ages in the other. Having these two tuples, we can use a loop to search for a given name in the name's tuple, and when we find it, we use the same index to access and print the appropriate age.
 
 ```{py-code} 1
+:opt-in-ai:
 
 name = ('Mary', 'Michael', 'Daniel', 'Matilda')
 age = (14, 15, 15, 16)
@@ -25,6 +26,7 @@ if not name_has_been_found:
 As we can see, the collections we already know can serve us in this case as well. However, for this type of task, there is a collection in which data is recorded in a more coherent way, and the necessary data is found easier and more efficiently. Let's look at another solution:
 
 ```{py-code} 2
+:opt-in-ai:
 
 age = {'Mary':14, 'Michael':15, 'Daniel':15, 'Matilda':16}
 asked_name = input('Please enter a name: ')
@@ -45,6 +47,7 @@ We can also build a dictionary by computing. We do this by inserting new key-val
 In the following example, the starting tuple contains the names of the football clubs that won the European Champions Cup (or the UEFA Champions League) from 1956-2019. Based on this information we will form a dictionary in which we will keep the number of championships won for each club. Here's how we can do it.
 
 ```{py-code} 3
+:opt-in-ai:
 
 champions = (
     'Real Madrid',       'Real Madrid',       'Real Madrid',       'Real Madrid',

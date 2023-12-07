@@ -38,6 +38,7 @@ def abs(x):
 A function can return more than one value. One such function is the built-in *divmod* function, which returns two numbers - the result of integer division and the reminder. We use the *divmod* function as we do with functions that return a single value, we only place the returned values in multiple variables:
 
 ```{py-code} 1
+:opt-in-ai:
 
 quotient, reminder = divmod(813, 10)
 print('The quotient is', quotient, 'and the remainder', reminder)
@@ -70,6 +71,7 @@ After the function, write a program that loads the data for 5 different rooms, a
 ```
 
 ```{py-code} 2
+:opt-in-ai:
 
 
 def paint_needed(a, b, h, not_to_paint):

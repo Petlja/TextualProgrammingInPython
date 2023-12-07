@@ -32,6 +32,7 @@ Complete the program - script, so that given the data on voting of team members,
 ```
 
 ```{py-code} 1
+:opt-in-ai:
 
 terms = (1, 2, 2, 1, 2, 2, 2, 1, 1, 1, 1, 2, 2, 2, 1)
 ```
@@ -39,6 +40,7 @@ terms = (1, 2, 2, 1, 2, 2, 2, 1, 1, 1, 1, 2, 2, 2, 1)
 For example, we can count the number of team members who voted for the first term, and calculate the rest at the end.
 
 ```{py-code} 2
+:opt-in-ai:
 
 terms = (1, 2, 2, 1, 2, 2, 2, 1, 1, 1, 1, 2, 2, 2, 1)
 
@@ -55,6 +57,7 @@ print(num_first_term, 'members voted for the first term and', num_second_term, '
 Another way is to count the votes for both the first term and the second term.
 
 ```{py-code} 3
+:opt-in-ai:
 
 terms = (1, 2, 2, 1, 2, 2, 2, 1, 1, 1, 1, 2, 2, 2, 1)
 
@@ -71,6 +74,7 @@ print(num_first_term, 'members voted for the first term and', num_second_term, '
 or, assuming the data is "clean", that is, there are no values other than 1 and 2:
 
 ```{py-code} 4
+:opt-in-ai:
 
 terms = (1, 2, 2, 1, 2, 2, 2, 1, 1, 1, 1, 2, 2, 2, 1)
 
@@ -88,6 +92,7 @@ print(num_first_term, 'members voted for the first term and', num_second_term, '
 In case the information is not known in advance but should be entered, we could write a program like this:
 
 ```{py-code} 5
+:opt-in-ai:
 
 n = int(input("How many team members voted: "))
 num_first_term = 0
@@ -112,6 +117,7 @@ Given at the beginning of the script are the test results of one group of candid
 ```
 
 ```{py-code} 6
+:opt-in-ai:
 
 num_incorrect = (2, 5, 1, 0, 4, 2, 7, 1)
 passed = 0
@@ -139,6 +145,7 @@ Children's heights are given at the beginning of the program. Complete the progr
 ```
 
 ```{py-code} 7
+:opt-in-ai:
 
 heights = (160, 161, 174, 149, 153, 160, 158, 182, 144)
 
@@ -154,6 +161,7 @@ Values of humidity (measured over a period of time) are given at the beginning o
 ```
 
 ```{py-code} 8
+:opt-in-ai:
 
 humidity = (0.2, 0.5, 0.61, 0.40, 0.72, 0.51, 0.43, 0.35, 0.28)
 

@@ -63,6 +63,7 @@ Three friends agreed to divide the profits from a joint venture so that the firs
 ```
 
 ```{py-code} 12
+:opt-in-ai:
 
 total_earnings = 40000
 first = total_earnings * 2 / 7

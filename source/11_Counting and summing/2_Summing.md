@@ -49,6 +49,7 @@ The results of an IQ test for a group of people are given. A score of -1 means t
 ```
 
 ```{py-code} 10
+:opt-in-ai:
 
 iq_results = (-1, 98, 115, -1, 83, 130, 101, 122, -1, 108)
 ```
@@ -56,6 +57,7 @@ iq_results = (-1, 98, 115, -1, 83, 130, 101, 122, -1, 108)
 We can write the program like this:
 
 ```{py-code} 11
+:opt-in-ai:
 
 iq_results = (-1, 98, 115, -1, 83, 130, 101, 122, -1, 108)
 num_tested = 0
@@ -86,6 +88,7 @@ Complete the program by computing and printing the total number of overtime hour
 If you solve the task correctly, you should get a score of 25 for the data given, since $(21-20)+(23-20)+(34-20)+(25-20)+(22-20)=25$.
 
 ```{py-code} 12
+:opt-in-ai:
 
 norm = 20
 hours_on_duty = (21, 23, 19, 34, 25, 22, 17)
@@ -118,6 +121,7 @@ The yield of all the trees in the orchard is given. Complete the program by calc
 You should get a result of approximately 14.757 for the given data.
 
 ```{py-code} 13
+:opt-in-ai:
 
 yield_per_plant = (11.3, 15.8, 9.5, 2.6, 21.1, 13.4, 17.9, 0.7, 14.3)
 
