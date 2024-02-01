@@ -16,11 +16,12 @@ release = '2.0.0'
 
 extensions = [ "myst_parser",
                "sphinx_design",
-               #"sphinxpackagingtool.builder.petlja_builder",
-               "petlja_sphinx_extensions.extensions.notes",
-               "petlja_sphinx_extensions.extensions.multiple_choice",            
-               "petlja_sphinx_extensions.extensions.fill_in_the_blank",
-               "petlja_sphinx_extensions.extensions.py_code"]
+               "sphinx_copybutton",
+               "plct_bulder_for_sphinx.builder.plct_builder",
+               "plct_sphinx_components.extensions.notes",
+               "plct_sphinx_components.extensions.multiple_choice",            
+               "plct_sphinx_components.extensions.fill_in_the_blank",
+               "plct_sphinx_components.extensions.py_code"]
 
 myst_enable_extensions = [ "colon_fence",
                            "dollarmath",
@@ -30,8 +31,8 @@ language = 'en'
 templates_path = ['_templates']
 exclude_patterns = []
 
-import petlja_sphinx_extensions
-html_static_path = petlja_sphinx_extensions.extensions.static_dirs()
+import plct_sphinx_components
+html_static_path = plct_sphinx_components.extensions.static_dirs()
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -54,9 +55,11 @@ html_theme_options = {
 html_css_files = [
     'https://fonts.googleapis.com/css?family=Source+Sans+Pro',
 ]
-#html_context = {
-#    'theme_nosidebar': True,
-#}
+html_context = {
+   'theme_nosidebar': True,
+}
 html_show_copyright = False
 html_show_sourcelink = False
 
+#additional_build_targets =['scorm' , 'moodle']
+content_uri = 'https://petljastorage.blob.core.windows.net/kursevi/2023/TextualProgrammingInPython/'
