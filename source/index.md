@@ -1,7 +1,7 @@
 ---
 title: Textual Programming in Python
 alias: TextualProgrammingInPython
-short_descripiton: Textual Programming in Python
+short_description: Textual Programming in Python
 long_description: >
         <p>Python is a very popular general-purpose programming language. It became known for its simplicity, ease of learning and fast programming. Many professional developers use Python at least as an auxiliary language, because they quickly and easily automate various jobs with it. Due to the aforementioned good qualities, there are more and more users of Python among people from other professions who use programming in various fields. The Python programming language is free to use, and a large  community has been formed around it, contributing to its further development and general support on the Internet. </p>
 
