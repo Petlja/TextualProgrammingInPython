@@ -2,7 +2,7 @@
 #
 # To get started with mdBook see: https://rust-lang.github.io/mdBook/index.html
 #
-name: Deploy Petljadoc site to Pages 
+name: Deploy PLCT site to Pages 
 
 on:
   # Runs on pushes  targeting the default branch
@@ -37,12 +37,12 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-      - name: Build with Petljadoc
-        run: uv run plct publish --warnaserror
+      - name: Build with PLCT
+        run: uv run plct build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./docs
+          path: build/plct_builder/static_website
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
